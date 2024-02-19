@@ -4,8 +4,6 @@ import AnimatedButton from "./framer-motion/AnimatedButton";
 import { MdDarkMode } from "react-icons/md";
 import { MdLightMode } from "react-icons/md";
 import { useThemeContext } from "../context/useThemeContext";
-import CustomLoginButton from "../auth/LoginButton";
-import GoogleSignInButton from "../auth/GoogleAuth";
 
 const Navbar = () => {
   const { isDarkTheme, toggleTheme } = useThemeContext();
